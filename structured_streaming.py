@@ -2,7 +2,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import window, col, sum, avg, current_timestamp
 
 spark = SparkSession.builder \
-    .appName("SocketSlidingWindowAggregation") \
+    .appName("AggregationTable") \
     .config("spark.driver.extraClassPath", "/usr/local/spark-3.3.1-bin-hadoop3/jars") \
     .getOrCreate()
     
