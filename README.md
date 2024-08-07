@@ -5,4 +5,4 @@
 <br>
 <br>
 
-[Hadoop & Spark](https://yrshin.notion.site)
+[발제자료](https://yrshin.notion.site)
